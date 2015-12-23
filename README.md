@@ -1,6 +1,4 @@
-# Github
-
-后台管理系统（增删改查） 此项目的技术栈：angularjs + php + mysql
+# 后台管理系统(angularjs + php + mysql)
 
 在此项目中遇到的坑：
 
@@ -13,6 +11,7 @@
 通过scope.$apply来传播页面输入的数据，代码如下
 
 return {
+
         require: '?ngModel',
         restrict: 'A',
         scope: {
