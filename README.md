@@ -4,7 +4,7 @@
 
 在添加页面(add.html)的模板中的
 
-"<input name="txt_title" type="text" size="40" auto-focus-when="focusTitle" ng-model="txt_title">"
+&lt;input name="txt_title" type="text" size="40" auto-focus-when="focusTitle" ng-model="txt_title &gt;
 
 当指令(directive)和ng-model同时使用时，在控制器中无法直接通过 $scope.txt_title 获取页面的值， 而需要在指令中
 
