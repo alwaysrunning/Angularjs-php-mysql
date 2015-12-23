@@ -25,15 +25,4 @@ directive.directive('autoFocusWhen',['$timeout',function($timeout){
         }
     }
 }]);
-/*directive.directive('loading',['$rootScope',function($rootScope){
-    return {
-        link:function(scope,elements,attrs,controller){
-            $rootScope.$on('$routeChangeStart',function(){
-                elements.show()
-            });
-            $rootScope.$on('$routeChangeSuccess',function(){
-                elements.hide()
-            })
-        }
-    }
-}]);*/
+
