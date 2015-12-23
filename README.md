@@ -43,4 +43,4 @@ return {
 
 2.在directive里面操作DOM的代码
 
-Angularjs更适合于CRUD的管理系统开发。
+3.Angularjs更多的是适合于CRUD的管理系统开发。
