@@ -1,0 +1,33 @@
+<html ng-app="myApp">
+<head>
+<title>公告信息管理</title>
+<meta charset='utf-8'>
+<meta http-equiv="Content-Type" content="text/html;">
+<link href="css/style.css" rel="stylesheet">
+<script src="scripts/common/jquery.js"></script>
+<script src="scripts/common/angular.min.js"></script>
+<script src="scripts/service.js"></script>
+<script src="scripts/directive.js"></script>
+<script src="scripts/controller.js"></script> 
+</head>
+<body>
+<table width="828" height="522" border="0" align="center" cellpadding="0" cellspacing="0" id="__01">
+  <tr>
+    <td background="images/image_01.gif">&nbsp;</td>
+    <td height="140" background="images/image_02.gif">&nbsp;</td>
+  </tr>
+  <tr ng-include src="'public/menu.html'"></tr>
+
+  <tr>
+    <td height="38" background="images/image_06.gif">&nbsp;</td>
+  </tr>
+
+  <tr ng-view></tr>
+
+  <tr>
+    <td bgcolor="#F0F0F0"></td>
+    <td height="43" background="images/image_12.gif"></td>
+  </tr>
+</table>
+</body>
+</html>
